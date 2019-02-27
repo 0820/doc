@@ -4,15 +4,18 @@
 
 > **Note**: this guide assumes you are familiar with Magento 2 MVC and [module file structure](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/build/module-file-structure.html). It also assumes you understand Magento 2 [product types](https://docs.magento.com/m2/ee/user_guide/catalog/product-types.html) and cart/checkout process.
 
+---
 
 ## Table of Contents
 
   1. [Intro](#intro)
   1. [Features](#features)
   1. [Module](#module)
-    1.1. [Block](#module-block)
+    1. [Block](#module-block)
+    1. [Controller](#module-controller)
   1. [Author](#author)
 
+---
 
 ## Intro
 
@@ -21,6 +24,9 @@
   Following links are landing page for current configurators.
   - Finestra Wood (https://finestrawood.rowleycompany.com/finestra-wood-design-your-window)
   - AriA (https://aria.rowleycompany.com/aria-design-your-window)
+
+
+## Features
 
 
 ## Module
