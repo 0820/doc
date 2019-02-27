@@ -45,10 +45,12 @@
   <a name="module-block"></a>
   - [Block](#module-block)
   
+  ~~~~
     |-- Html
 
         |-- Title
 
+  ~~~~    
         `Silk\VisualConfigurator\Block\Html\Title`
 
         PHP class for page title template. Only used on product configurator page
