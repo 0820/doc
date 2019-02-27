@@ -9,7 +9,8 @@
 
   1. [Intro](#intro)
   1. [Features](#features)
-  1. [Where are things](#where)
+  1. [Module](#module)
+    1.1. [Block](#module-block)
   1. [Author](#author)
 
 
@@ -22,14 +23,31 @@
   - AriA (https://aria.rowleycompany.com/aria-design-your-window)
 
 
-## Where are things
+## Module
 
-  - Module
+  > Detailed info about configurator module and which file does what
+
+  - Module Level
   
-    The 99% percent of codes are located in module `Silk_VisualConfigurator`
+    The 99% percent of configurator codes are located in module `Silk_VisualConfigurator`
+    
     Shipping method related code is in `Silk/Miscellaneous/Model/Rewrite/Shipping/Shipping.php`
+    
     API pricing is in module `Silk_SagePrice`
     
+
+  <a name="module-block"></a>
+  - [Block](#module-block)
+  
+    - Html
+      - Title
+      PHP class for page title template. Only used on product configurator page
+      
+      Set the page title on front end to be the product name
+  
+    - Product
+      - View
+        - Attributes
 
 ## Author
 
