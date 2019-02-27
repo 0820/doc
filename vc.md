@@ -25,6 +25,17 @@
   - Finestra Wood (https://finestrawood.rowleycompany.com/finestra-wood-design-your-window)
   - AriA (https://aria.rowleycompany.com/aria-design-your-window)
 
+### List of Configurators
+
+| Finestra Wood      | AriA |
+| ----------- | ----------- |
+| Cord Draw Traverse System      | Stationary 1 1/8" System       |
+| Cord Draw Traverse System with "C" Rings   | Stationary 1 3/8" System         |
+| Baton Draw Traverse System      | H-Rail 1 1/8" System        |
+| Baton Draw Traverse System with "C" Rings   | H-Rail 1 3/8" System         |
+| Stationary System      | Telescoping 1 1/8" System        |
+
+
 
 ## Features
 
