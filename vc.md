@@ -11,8 +11,8 @@
   1. [Intro](#intro)
   2. [Features](#features)
   3. [Module](#module)
-    3.1. [Block](#module-block)
-    3.2. [Controller](#module-controller)
+      - [Block](#module-block)
+      - [Controller](#module-controller)
   4. [Author](#author)
 
 ---
@@ -47,7 +47,7 @@
   
     |-- Html
 
-      |-- Title
+        |-- Title
 
         `Silk\VisualConfigurator\Block\Html\Title`
 
@@ -57,9 +57,9 @@
   
     |-- Product
  
-      |-- View
+        |-- View
  
-        |-- Attributes
+            |-- Attributes
 
 ## Author
 
