@@ -11,8 +11,8 @@
   1. [Intro](#intro)
   1. [Features](#features)
   1. [Module](#module)
-    1. [Block](#module-block)
-    1. [Controller](#module-controller)
+    ⋅⋅1. [Block](#module-block)
+    ⋅⋅1. [Controller](#module-controller)
   1. [Author](#author)
 
 ---
@@ -45,15 +45,15 @@
   <a name="module-block"></a>
   - [Block](#module-block)
   
-    - Html
-      - Title
+    |-- Html
+      |-- Title
       PHP class for page title template. Only used on product configurator page
       
       Set the page title on front end to be the product name
   
-    - Product
-      - View
-        - Attributes
+    |-- Product
+      |-- View
+        |-- Attributes
 
 ## Author
 
