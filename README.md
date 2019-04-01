@@ -5,5 +5,7 @@
 
 List
 
-  - [Visual Configurator](vc.md)
+  - [General Development Guide](guide.md)
 
+  - [Visual Configurator](vc.md)
+  
