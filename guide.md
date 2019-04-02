@@ -84,3 +84,20 @@ Here are some of the documents from where we derived our styling guide. If somet
     CONFLICT (content): Merge conflict in merge.txt
     Automatic merge failed; fix conflicts and then commit the result.
     ```
+
+    ```bash
+    $ git merge new_branch_to_merge_later
+    Auto-merging merge.txt
+    CONFLICT (content): Merge conflict in merge.txt
+    Automatic merge failed; fix conflicts and then commit the result.
+    ```
+    
+    ```bash
+    $ cat merge.txt
+    <<<<<<< HEAD
+    this is some content to mess with
+    content to append
+    =======
+    totally different content to merge later
+    >>>>>>> new_branch_to_merge_later
+    ```
