@@ -108,7 +108,7 @@ ___
     
  ## Coding
  
- ~~Personally, I strongly not recommend using W3School~~
+ ~~Personally, I strongly recommend against using W3School~~
  
  ### HTML
  
