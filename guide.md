@@ -25,74 +25,72 @@ Here are some of the documents from where we derived our styling guide. If somet
 - Maintainence Standard Workflow
  
     __The word 'master' here not necessaryly means `master` branch. It's the branch that deploy to live environment.__
-    - Checkout master
+    1. Checkout master
     ```bash
     git checkout master
     ```
-    - Make sure master is up to date
+    2. Make sure master is up to date
     ```bash
     git pull origin master
     ```
-    - Checkout feature branch (Do NOT use a meaningless branch name)
+    3. Checkout feature branch (Do NOT use a meaningless branch name)
     ```bash
     // you are on master
     git checkout -b feature-branch
     ```
-    - Start your coding
-    - After you are good with your code, commit the code on feature branch
+    4. Start your coding
+    5. After you are good with your code, commit the code on feature branch
     ```bash
     git add [<pathspec>…]
     git commit -m "git comment here"
     ```
-    - Checkout qa or staging branch, whichever branch is used for client to review the updates
+    6. Checkout qa or staging branch, whichever branch is used for client to review the updates
     ```bash
     git checkout qa
     // or
     git checkout staging
     ```
-    - Merge the feature branch **into** test branch
+    7. Merge the feature branch **into** test branch
     ```bash
     git merge feature-branch
     ```
-    - Push your code to qa or staging branch, check your updates on staging environment
+    8. Push your code to qa or staging branch, check your updates on staging environment
     ```bash
     git pull origin qa
     git push origin qa
     ```
-    - Wait for approval from client or *Edward*
-    - Once you are allowed to put your updated on live, checkout master
+    9. Wait for approval from client or *Edward*
+    10. Once you are allowed to put your updated on live, checkout master
     ```bash
     git checkout master
     ```
-    - Merge the feature branch **into** master
+    11. Merge the feature branch **into** master
     ```bash
     git merge feature-branch
     // solve potential conflict here
     ```
-    - Push master, check you updates on live environment
+    12. Push master, check you updates on live environment
     ```bash
     git pull origin master
     git push origin master
     ```
 
+___
+
 - Solve git conflict
 
-    It's crucial you solve the conflict in the approriapte manner. If done in the wrong way, you might remove code of someone else.
-    ```bash
+    ___It's crucial you solve the conflict in the approriapte manner. If done in the wrong way, you might remove code of someone else.___
+
+    - Example of conflict
+    ```
     $ git merge new_branch_to_merge_later
     Auto-merging merge.txt
     CONFLICT (content): Merge conflict in merge.txt
     Automatic merge failed; fix conflicts and then commit the result.
     ```
 
-    ```bash
-    $ git merge new_branch_to_merge_later
-    Auto-merging merge.txt
-    CONFLICT (content): Merge conflict in merge.txt
-    Automatic merge failed; fix conflicts and then commit the result.
+    - What a conflict looks like    
     ```
-    
-    ```bash
     $ cat merge.txt
     <<<<<<< HEAD
     this is some content to mess with
@@ -101,3 +99,18 @@ Here are some of the documents from where we derived our styling guide. If somet
     totally different content to merge later
     >>>>>>> new_branch_to_merge_later
     ```
+    
+    + If the conflict code contains your updates, you might want to keep the part between `<<<<<<< HEAD` and `=======`
+    + If the conflict code is not related to your updates, you might want to keep the part between `=======` and `>>>>>>> new_branch_to_merge_later`
+    - Think twice before you remove any code in conflict. If not sure, ask someone.
+    - After you solve the conflict (remove all the `<<<<<<<` and `=======`), commit your change to finish the merge process.
+    
+    
+ ## Coding
+ 
+ ~~Personally, I strongly not recommend using W3School~~
+ 
+ ### HTML
+ 
+   For reference, [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
+   - Coding convention, 
