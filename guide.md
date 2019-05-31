@@ -10,6 +10,7 @@ Here are some of the documents from where we derived our styling guide. If somet
 * [Google Javascript Style Guide](https://google.github.io/styleguide/jsguide.html)
 * [Magento Programming Best Practices](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/common-programming-bp.html)
 * [Magento Official Coding Standards](https://devdocs.magento.com/guides/v2.3/coding-standards/bk-coding-standards.html)
+* [Magento Technical Guidelines](https://devdocs.magento.com/guides/v2.3/coding-standards/technical-guidelines.html)
 * [Knockout Js Introduction](https://knockoutjs.com/documentation/introduction.html)
 
 ## Version Control
