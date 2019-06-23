@@ -1,13 +1,13 @@
-# General Development and Coding Document
+# Development and Coding Guidance
 
 This guide outlines the best practice and coding conventions.
 
 ## Table of Contents
 
   1. [Introduction](#introduction)
-  1. [Version Control](#references)
-  1. [Coding](#objects)
-  1. [Appendix](#arrays)
+  1. [Version Control](#version)
+  1. [Coding](#coding)
+  1. [Appendix](#author)
 
 ## Introduction
 
@@ -110,9 +110,8 @@ ___
     - Think twice before you remove any code in conflict. If not sure, ask someone.
     - After you solve the conflict (remove all the `<<<<<<<` and `=======`), commit your change to finish the merge process.
 
-
 ------------
-
+**[⬆ back to top](#table-of-contents)**
 
  ## Coding
 
