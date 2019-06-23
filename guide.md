@@ -111,7 +111,16 @@ ___
  
  ~~Personally, I strongly recommend against using W3School~~
  
+ Good coding materials:
+  - [MDN web docs](https://developer.mozilla.org/en-US/)
+  - [CSS tricks](https://css-tricks.com/)
+  - [ECMAScript specification](https://tc39.es/ecma262/)
+  - [ZEND framework](https://framework.zend.com/manual/2.4/en/index.html)
+  
+  
  ### HTML
  
    For reference, [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
-   - Coding convention, 
+   - Coding convention
+   Magento provides HTML [style guide](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-html.html)
+   
