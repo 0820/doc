@@ -122,6 +122,10 @@ ___
 
 ###General coding style guide
 
+###### Character Encoding
+MUST use only UTF-8 without BOM
+###### Line length
+Each line is limited to be less than 120 characters
 ###### Indentations
 - Tab size: 4 spaces
 - Indent size: 4 spaces
@@ -139,20 +143,89 @@ Add a blank line at the end of  file [:fa-info-circle:](https://thoughtbot.com/b
 
 ###### Spaces
 Add space after keyword  `if` `for` `foreach` `switch`
-Add spaced before and after equal operator `==` and assign operator `=`
+Add spaced before and after equal operator `==` and assign operator `=` (except html)
+
 ```
 Good
 if (name == "Skywalker")
 
 Bad
-if(name == "Skywalker")
+if(name=="Skywalker")
+```
+In a `for` statement, use no space before sem-color`;`,  add one space after semi-colon
+Add spaces before and after comparison operator, llike `<` `>` `<=` `>=`
+```
+Good
+for (i = 0; i < count; i++)
+Bad
+for(i=0;i<count;i++)
+```
+Add a space after colon `:`, and no space before colon
+```
+Good
+<span data-bind="i18n: 'Update'"></span>
+Bad
+<span data-bind="i18n : 'Update'"></span>
+<span data-bind="i18n:'Update'"></span>
+
+```
+Add a space right before open bracket `{`, except PHP
+PHP requires class and function open bracket in a new line
+```
+Good
+if (condition) {
+} else if (otherCondition) {
+} else {
+}
+Bad
+if (condition){
+} else if (otherCondition){
+} else{
+}
+```
+In the argument list, there MUST NOT be a space before each comma, and there MUST be one space after each comma.
+```
+Good
+public function foo($arg1, &$arg2, $arg3 = [])
+Bad
+public function foo($arg1,&$arg2,$arg3 = [])
 ```
 
 
-
  ### HTML
- 
-   For reference, [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
-   - Coding convention
+ [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
+ [W3C markup validation service](https://validator.w3.org/)
+ [Web Accessibility](https://www.w3.org/WAI/tips/developing/#top)
+
+
+ - Coding convention
    Magento provides HTML [style guide](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-html.html)
-   
+
+###PHP
+[PHP_CodeSnifer](https://pear.php.net/manual/en/package.php.php-codesniffer.faq.php)
+[PHP standards (psr)](https://www.php-fig.org/psr/)
+  - Coding convention
+  PHP only, the open bracket for class and function MUST start on a new line
+  ```PHP
+  ######Good
+  <?php
+	class ClassName
+	{
+		public function fooBarBaz($arg1, &$arg2, $arg3 = [])
+		{
+			// method body
+		}
+	}
+	######Bad
+	<?php
+	class ClassName{
+		public function fooBarBaz($arg1, &$arg2, $arg3 = []){
+			// method body
+		}
+	}
+  ```
+  
+###CSS
+[Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+[Magento less coding standard](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-less.html)
+
