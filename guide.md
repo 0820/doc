@@ -204,25 +204,25 @@ public function foo($arg1,&$arg2,$arg3 = [])
 ### PHP
 [PHP_CodeSnifer](https://pear.php.net/manual/en/package.php.php-codesniffer.faq.php)
 [PHP standards (psr)](https://www.php-fig.org/psr/)
-  - Coding convention
+  #### Coding convention
   PHP only, the open bracket for class and function MUST start on a new line
   ```PHP
   ###### Good
   <?php
-	class ClassName
-	{
-		public function fooBarBaz($arg1, &$arg2, $arg3 = [])
-		{
-			// method body
-		}
-	}
-	###### Bad
-	<?php
-	class ClassName{
-		public function fooBarBaz($arg1, &$arg2, $arg3 = []){
-			// method body
-		}
-	}
+  class ClassName
+  {
+      public function fooBarBaz($arg1, &$arg2, $arg3 = [])
+      {
+      // method body
+      }
+  }
+  ###### Bad
+  <?php
+  class ClassName{
+      public function fooBarBaz($arg1, &$arg2, $arg3 = []){
+      // method body
+      }
+  }
   ```
 
 
