@@ -190,9 +190,9 @@ public function foo($arg1,&$arg2,$arg3 = [])
 
 
  ### HTML
- [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
- [W3C markup validation service](https://validator.w3.org/)
- [Web Accessibility](https://www.w3.org/WAI/tips/developing/#top)
+ * [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
+ * [W3C markup validation service](https://validator.w3.org/)
+ * [Web Accessibility](https://www.w3.org/WAI/tips/developing/#top)
 
 
 #### Tools
@@ -202,9 +202,10 @@ public function foo($arg1,&$arg2,$arg3 = [])
    Magento provides HTML [style guide](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-html.html)
 
 ### PHP
-[PHP_CodeSnifer](https://pear.php.net/manual/en/package.php.php-codesniffer.faq.php)
-[PHP standards (psr)](https://www.php-fig.org/psr/)
-  #### Coding convention
+* [PHP_CodeSnifer](https://pear.php.net/manual/en/package.php.php-codesniffer.faq.php)
+* [PHP standards (psr)](https://www.php-fig.org/psr/)
+
+#### Coding convention
   PHP only, the open bracket for class and function MUST start on a new line
   ```PHP
   ###### Good
@@ -230,12 +231,15 @@ public function foo($arg1,&$arg2,$arg3 = [])
 
 
 #### Tools
-[Color](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
-[Squoosh](https://squoosh.app/)
+* [Color](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+* [Squoosh](https://squoosh.app/)
+* [Can I use?](https://caniuse.com/)
+* [Targeting IE versions](https://codepen.io/mkstix6/pen/pRbErK)
+* [CSS zen garden](http://csszengarden.com/)
 
 #### Coding styles
-[Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
-[Magento less coding standard](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-less.html)
+* [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+* [Magento less coding standard](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-less.html)
 
 > ## Inline styling must be avoided
 > ## whatever the cost is
@@ -277,8 +281,8 @@ Avoid using the !important property if possible. If it is required, add a space 
 ```
 
 #### Email styling
-[Email Template List in Magento 2](https://www.mageplaza.com/kb/email-template-list-magento-2.html)
-[The ultimate guide](https://www.campaignmonitor.com/css/selectors/universal/)
+* [Email Template List in Magento 2](https://www.mageplaza.com/kb/email-template-list-magento-2.html)
+* [The ultimate guide](https://www.campaignmonitor.com/css/selectors/universal/)
 
 ### Javascript
 * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
@@ -287,5 +291,5 @@ Avoid using the !important property if possible. If it is required, add a space 
 * [Magento Javascript coding standard](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-javascript.html)
 
 #### Tools
-[Babel](https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015%2Creact%2Cstage-2%2Cenv&prettier=true&targets=&version=7.2.2)
-[Regex 101](https://regex101.com/)
+* [Babel](https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015%2Creact%2Cstage-2%2Cenv&prettier=true&targets=&version=7.2.2)
+* [Regex 101](https://regex101.com/)
