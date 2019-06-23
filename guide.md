@@ -105,19 +105,51 @@ ___
     + If the conflict code is not related to your updates, you might want to keep the part between `=======` and `>>>>>>> new_branch_to_merge_later`
     - Think twice before you remove any code in conflict. If not sure, ask someone.
     - After you solve the conflict (remove all the `<<<<<<<` and `=======`), commit your change to finish the merge process.
-    
-    
+
+
+------------
+
+
  ## Coding
- 
+
  ~~Personally, I strongly recommend against using W3School~~
  
  Good coding materials:
   - [MDN web docs](https://developer.mozilla.org/en-US/)
   - [CSS tricks](https://css-tricks.com/)
   - [ECMAScript specification](https://tc39.es/ecma262/)
-  - [ZEND framework](https://framework.zend.com/manual/2.4/en/index.html)
-  
-  
+  - [Zend framework](https://framework.zend.com/manual/2.4/en/index.html)
+
+###General coding style guide
+
+###### Indentations
+- Tab size: 4 spaces
+- Indent size: 4 spaces
+- Continuation indent: 4 spaces
+
+```html
+<ul>
+    <li>One</li>
+    <li>Two</li>
+</ul>
+```
+
+###### End of file
+Add a blank line at the end of  file [:fa-info-circle:](https://thoughtbot.com/blog/no-newline-at-end-of-file)
+
+###### Spaces
+Add space after keyword  `if` `for` `foreach` `switch`
+Add spaced before and after equal operator `==` and assign operator `=`
+```
+Good
+if (name == "Skywalker")
+
+Bad
+if(name == "Skywalker")
+```
+
+
+
  ### HTML
  
    For reference, [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
