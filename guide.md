@@ -6,12 +6,9 @@ This guide outlines the best practice and coding conventions.
 
 Here are some of the documents from where we derived our styling guide. If something isn't mentioned here, it's probably covered in great detail in one of these:
 
-* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-* [Google Javascript Style Guide](https://google.github.io/styleguide/jsguide.html)
 * [Magento Programming Best Practices](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/common-programming-bp.html)
 * [Magento Official Coding Standards](https://devdocs.magento.com/guides/v2.3/coding-standards/bk-coding-standards.html)
 * [Magento Technical Guidelines](https://devdocs.magento.com/guides/v2.3/coding-standards/technical-guidelines.html)
-* [Knockout Js Introduction](https://knockoutjs.com/documentation/introduction.html)
 
 ## Version Control
 
@@ -198,7 +195,10 @@ public function foo($arg1,&$arg2,$arg3 = [])
  [Web Accessibility](https://www.w3.org/WAI/tips/developing/#top)
 
 
- - Coding convention
+####Tools
+[HTML Symbols, Entities](https://www.toptal.com/designers/htmlarrows/)
+
+#### Coding convention
    Magento provides HTML [style guide](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-html.html)
 
 ###PHP
@@ -224,8 +224,68 @@ public function foo($arg1,&$arg2,$arg3 = [])
 		}
 	}
   ```
-  
+
+
 ###CSS
+
+
+#### Tools
+[Color](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+[Squoosh](https://squoosh.app/)
+
+####Coding styles
 [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 [Magento less coding standard](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-less.html)
 
+> ## Inline styling must be avoided
+> ## whatever the cost is
+
+##### Braces
+Add one space before opening braces and a line break after. Add a line break before closing braces.
+###### Correct
+```less
+.nav {
+    color: @nav__color;
+}
+```
+######Wrong
+```less
+.nav{color: @nav__color;}
+```
+##### Selector delimiters
+Add a line break after each selector delimiter. Do not add spaces before or after delimiters.
+###### Correct
+```less
+.nav,
+.bar {
+    color: @color__base;
+}
+```
+###### Wrong
+```less
+.nav, .bar {
+    color: @color__base;
+}
+```
+##### !important property
+Avoid using the !important property if possible. If it is required, add a space before the property.
+###### Correct
+```less
+.jquery-ui-calendar-item {
+    background-color: @nav__background-color !important;
+}
+```
+
+####Email styling
+[Email Template List in Magento 2](https://www.mageplaza.com/kb/email-template-list-magento-2.html)
+[The ultimate guide](https://www.campaignmonitor.com/css/selectors/universal/)
+
+### Javascript
+* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+* [Google Javascript Style Guide](https://google.github.io/styleguide/jsguide.html)
+* [Knockout Js Introduction](https://knockoutjs.com/documentation/introduction.html)
+* [Magento Javascript coding standard](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-javascript.html)
+
+####Tools
+[Babel](https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015%2Creact%2Cstage-2%2Cenv&prettier=true&targets=&version=7.2.2)
+[Regex 101](https://regex101.com/)
