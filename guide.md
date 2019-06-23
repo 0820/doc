@@ -195,19 +195,19 @@ public function foo($arg1,&$arg2,$arg3 = [])
  [Web Accessibility](https://www.w3.org/WAI/tips/developing/#top)
 
 
-####Tools
+#### Tools
 [HTML Symbols, Entities](https://www.toptal.com/designers/htmlarrows/)
 
 #### Coding convention
    Magento provides HTML [style guide](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-html.html)
 
-###PHP
+### PHP
 [PHP_CodeSnifer](https://pear.php.net/manual/en/package.php.php-codesniffer.faq.php)
 [PHP standards (psr)](https://www.php-fig.org/psr/)
   - Coding convention
   PHP only, the open bracket for class and function MUST start on a new line
   ```PHP
-  ######Good
+  ###### Good
   <?php
 	class ClassName
 	{
@@ -216,7 +216,7 @@ public function foo($arg1,&$arg2,$arg3 = [])
 			// method body
 		}
 	}
-	######Bad
+	###### Bad
 	<?php
 	class ClassName{
 		public function fooBarBaz($arg1, &$arg2, $arg3 = []){
@@ -226,14 +226,14 @@ public function foo($arg1,&$arg2,$arg3 = [])
   ```
 
 
-###CSS
+### CSS
 
 
 #### Tools
 [Color](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
 [Squoosh](https://squoosh.app/)
 
-####Coding styles
+#### Coding styles
 [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 [Magento less coding standard](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-less.html)
 
@@ -248,7 +248,7 @@ Add one space before opening braces and a line break after. Add a line break bef
     color: @nav__color;
 }
 ```
-######Wrong
+###### Wrong
 ```less
 .nav{color: @nav__color;}
 ```
@@ -276,7 +276,7 @@ Avoid using the !important property if possible. If it is required, add a space 
 }
 ```
 
-####Email styling
+#### Email styling
 [Email Template List in Magento 2](https://www.mageplaza.com/kb/email-template-list-magento-2.html)
 [The ultimate guide](https://www.campaignmonitor.com/css/selectors/universal/)
 
@@ -286,6 +286,6 @@ Avoid using the !important property if possible. If it is required, add a space 
 * [Knockout Js Introduction](https://knockoutjs.com/documentation/introduction.html)
 * [Magento Javascript coding standard](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-javascript.html)
 
-####Tools
+#### Tools
 [Babel](https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015%2Creact%2Cstage-2%2Cenv&prettier=true&targets=&version=7.2.2)
 [Regex 101](https://regex101.com/)
