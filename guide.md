@@ -2,6 +2,13 @@
 
 This guide outlines the best practice and coding conventions.
 
+## Table of Contents
+
+  1. [Introduction](#introduction)
+  1. [Version Control](#references)
+  1. [Coding](#objects)
+  1. [Appendix](#arrays)
+
 ## Introduction
 
 Here are some of the documents from where we derived our styling guide. If something isn't mentioned here, it's probably covered in great detail in one of these:
@@ -117,7 +124,7 @@ ___
   - [ECMAScript specification](https://tc39.es/ecma262/)
   - [Zend framework](https://framework.zend.com/manual/2.4/en/index.html)
 
-###General coding style guide
+### General coding style guide
 
 ###### Character Encoding
 MUST use only UTF-8 without BOM
@@ -241,8 +248,7 @@ public function foo($arg1,&$arg2,$arg3 = [])
 * [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 * [Magento less coding standard](https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-less.html)
 
-> ## Inline styling must be avoided
-> ## whatever the cost is
+> ### Inline styling MUST be avoided ~~whatever the cost is~~
 
 ##### Braces
 Add one space before opening braces and a line break after. Add a line break before closing braces.
@@ -284,7 +290,7 @@ Avoid using the !important property if possible. If it is required, add a space 
 * [Email Template List in Magento 2](https://www.mageplaza.com/kb/email-template-list-magento-2.html)
 * [The ultimate guide](https://www.campaignmonitor.com/css/selectors/universal/)
 
-### Javascript
+### JavaScript
 * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 * [Google Javascript Style Guide](https://google.github.io/styleguide/jsguide.html)
 * [Knockout Js Introduction](https://knockoutjs.com/documentation/introduction.html)
@@ -293,3 +299,18 @@ Avoid using the !important property if possible. If it is required, add a space 
 #### Tools
 * [Babel](https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015%2Creact%2Cstage-2%2Cenv&prettier=true&targets=&version=7.2.2)
 * [Regex 101](https://regex101.com/)
+
+
+**[⬆ back to top](#table-of-contents)**
+
+## Author
+- Daniel Qin daniel@maginx.com
+
+## License
+Copyright &copy; <2019> Maginx
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
