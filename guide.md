@@ -126,7 +126,7 @@ ___
 ### General coding style guide
 
 ###### Character Encoding
-MUST use only UTF-8 without BOM [:fa-question-circle:](https://www.unicode.org/faq/utf_bom.html#BOM)
+MUST use only UTF-8 without BOM [?](https://www.unicode.org/faq/utf_bom.html#BOM)
 ###### Line length
 Each line is limited to be less than 120 characters
 ###### Indentations
