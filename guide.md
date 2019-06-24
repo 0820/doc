@@ -107,8 +107,8 @@ ___
     
     + If the conflict code contains your updates, you might want to keep the part between `<<<<<<< HEAD` and `=======`
     + If the conflict code is not related to your updates, you might want to keep the part between `=======` and `>>>>>>> new_branch_to_merge_later`
-    - Think twice before you remove any code in conflict. If not sure, ask someone.
-    - After you solve the conflict (remove all the `<<<<<<<` and `=======`), commit your change to finish the merge process.
+    - *Think twice before you remove any code in conflict*. If not sure, ask someone.
+    - After you solve the conflict (remove all the `<<<<<<<` and `=======`), git `add` and  `commit` your change to finish the merge process.
 
 ------------
 **[⬆ back to top](#table-of-contents)**
@@ -126,7 +126,7 @@ ___
 ### General coding style guide
 
 ###### Character Encoding
-MUST use only UTF-8 without BOM
+MUST use only UTF-8 without BOM [:fa-question-circle:](https://www.unicode.org/faq/utf_bom.html#BOM)
 ###### Line length
 Each line is limited to be less than 120 characters
 ###### Indentations
