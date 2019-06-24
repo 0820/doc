@@ -127,8 +127,10 @@ ___
 
 ###### Character Encoding
 MUST use only UTF-8 without BOM [?](https://www.unicode.org/faq/utf_bom.html#BOM)
+
 ###### Line length
 Each line is limited to be less than 120 characters
+
 ###### Indentations
 - Tab size: 4 spaces
 - Indent size: 4 spaces
@@ -142,7 +144,7 @@ Each line is limited to be less than 120 characters
 ```
 
 ###### End of file
-Add a blank line at the end of  file [:fa-info-circle:](https://thoughtbot.com/blog/no-newline-at-end-of-file)
+Add a blank line at the end of  file [:interrobang:](https://thoughtbot.com/blog/no-newline-at-end-of-file)
 
 ###### Spaces
 Add space after keyword  `if` `for` `foreach` `switch`
