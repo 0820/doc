@@ -5,7 +5,7 @@ This guide outlines the best practice and coding conventions.
 ## Table of Contents
 
   1. [Introduction](#introduction)
-  1. [Version Control](#version)
+  1. [Version Control](#version-control)
   1. [Coding](#coding)
   1. [Appendix](#author)
 
